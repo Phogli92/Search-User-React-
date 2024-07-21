@@ -13,7 +13,7 @@ function App() {
         setUserData(data)
       }
       getUser()
-  }) 
+  }, []) 
 
 
   return <>
